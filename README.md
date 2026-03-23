@@ -38,11 +38,13 @@ CardValidation result = CreditCard.Validate("4111111111111111");
 
 ### `CreditCard`
 
-- `IsValid(string number)` — Returns `true` if the number passes the Luhn check.
-- `DetectBrand(string number)` — Returns the `CardBrand` based on the BIN prefix.
-- `Mask(string number, char maskChar = '*')` — Masks all but the last 4 digits.
-- `Format(string number)` — Formats the number with spaces in groups of 4.
-- `Validate(string number)` — Returns a `CardValidation` with validity, brand, and errors.
+| Method | Description |
+|--------|-------------|
+| `IsValid(string number)` | Returns `true` if the number passes the Luhn check. |
+| `DetectBrand(string number)` | Returns the `CardBrand` based on the BIN prefix. |
+| `Mask(string number, char maskChar = '*')` | Masks all but the last 4 digits. |
+| `Format(string number)` | Formats the number with spaces in groups of 4. |
+| `Validate(string number)` | Returns a `CardValidation` with validity, brand, and errors. |
 
 ### `CardBrand`
 
@@ -54,11 +56,15 @@ Record: `IsValid` (bool), `Brand` (CardBrand), `Errors` (string[]).
 
 ### `LuhnValidator`
 
-- `IsValid(string digits)` — Luhn mod-10 check. Ignores spaces and dashes.
+| Method | Description |
+|--------|-------------|
+| `IsValid(string digits)` | Luhn mod-10 check. Ignores spaces and dashes. |
 
 ### `BrandDetector`
 
-- `Detect(string number)` — Detects brand from BIN (first 6 digits).
+| Method | Description |
+|--------|-------------|
+| `Detect(string number)` | Detects brand from BIN (first 6 digits). |
 
 ## Development
 
@@ -68,4 +74,4 @@ dotnet build src/Philiprehberger.CreditCardValidator.csproj --configuration Rele
 
 ## License
 
-[MIT](LICENSE)
+MIT
