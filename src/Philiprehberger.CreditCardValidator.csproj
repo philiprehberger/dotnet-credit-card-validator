@@ -10,7 +10,7 @@
     <RootNamespace>Philiprehberger.CreditCardValidator</RootNamespace>
 
     <PackageId>Philiprehberger.CreditCardValidator</PackageId>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <Authors>Philip Rehberger</Authors>
     <Description>Validate credit card numbers with Luhn check, detect card brand, and mask for display.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/dotnet-credit-card-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-credit-card-validator/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.CreditCardValidator.svg)](https://www.nuget.org/packages/Philiprehberger.CreditCardValidator)
 [![License](https://img.shields.io/github/license/philiprehberger/dotnet-credit-card-validator)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Validate credit card numbers with Luhn check, detect card brand, and mask for display.
 
@@ -74,4 +75,4 @@ dotnet build src/Philiprehberger.CreditCardValidator.csproj --configuration Rele
 
 ## License
 
-MIT
+[MIT](LICENSE)
