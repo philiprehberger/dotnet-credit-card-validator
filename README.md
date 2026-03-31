@@ -2,8 +2,7 @@
 
 [![CI](https://github.com/philiprehberger/dotnet-credit-card-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-credit-card-validator/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.CreditCardValidator.svg)](https://www.nuget.org/packages/Philiprehberger.CreditCardValidator)
-[![License](https://img.shields.io/github/license/philiprehberger/dotnet-credit-card-validator)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/dotnet-credit-card-validator)](https://github.com/philiprehberger/dotnet-credit-card-validator/commits/main)
 
 Validate credit card numbers with Luhn check, detect card brand, and mask for display.
 
@@ -72,6 +71,24 @@ Record: `IsValid` (bool), `Brand` (CardBrand), `Errors` (string[]).
 ```bash
 dotnet build src/Philiprehberger.CreditCardValidator.csproj --configuration Release
 ```
+
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/dotnet-credit-card-validator)
+
+🐛 [Report issues](https://github.com/philiprehberger/dotnet-credit-card-validator/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/dotnet-credit-card-validator/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
 
 ## License
 
